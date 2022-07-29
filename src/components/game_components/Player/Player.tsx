@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from 'react'
-import player_idle from '../../assets/sprites/player_sprites/10.png'
-import player_walking_down from '../../assets/sprites/player_sprites/merged.gif'
+import player_idle from "../../../assets/sprites/player_sprites/10.png"
+
 
 export default function Player() {
 
@@ -11,7 +11,6 @@ export default function Player() {
         e: React.KeyboardEvent<HTMLElement>
     ) => {
         console.log(e.key);
-        setImg(player_walking_down)
 
     };
 

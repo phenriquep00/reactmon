@@ -1,4 +1,4 @@
-import Player from "./game_components/Player";
+import Player from "./game_components/Player/Player";
 
 export default function Canvas() {
     return(
